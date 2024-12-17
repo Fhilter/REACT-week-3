@@ -7,7 +7,7 @@ export function Player() {
 
     return(
         <>
-        {result}
+        {score}<p>=</p>{result}
         </>
     )
 }

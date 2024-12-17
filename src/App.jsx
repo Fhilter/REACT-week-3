@@ -13,6 +13,7 @@ function App(){
       <User />
       <Footer />
       <Player />
+      <br></br>
       <Button />
     </div>
   );
