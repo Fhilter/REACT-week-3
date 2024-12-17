@@ -1,6 +1,7 @@
 import './App.css'
 import { Header } from './Components/Containers/Header/Header';
 import { Footer } from './Components/Containers/Footer/Footer';
+import { Button } from './Components/UI/Button/Button';
 
 function App(){
 
@@ -8,6 +9,7 @@ function App(){
     <div>
       <Header />
       <Footer />
+      <Button />
     </div>
   );
 }
