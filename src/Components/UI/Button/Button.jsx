@@ -1,5 +1,11 @@
-export function Button() {
+export function Button({color}) {
     return(
-        <button>Validate</button>
+        <button style={{
+            backgroundColor: color ? color: "black",
+            color: "whitesmoke",
+            padding: "1em",
+            border: "none",
+            borderRadius: '5px'
+        }}>Validate</button>
     )
 }
