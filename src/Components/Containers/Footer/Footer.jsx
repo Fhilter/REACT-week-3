@@ -1,7 +1,7 @@
 export function Footer() {
     return(
         <div>
-            <h1>My footer is HUUUUGE</h1>
+            <p>My footer is HUUUUGE</p>
         </div>
     )
 }
