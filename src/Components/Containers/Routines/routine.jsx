@@ -15,18 +15,18 @@ export function Routine() {
             <>
             <h2>My Routines</h2>
             <Button
-            callBack={() => {clickRoutine('EAT')}}>
+            callBack={ function() {clickRoutine('EAT')}}>
             EAT
             </Button>
             <Button
-            callBack={() => {clickRoutine('SLEEP')}}>
+            callBack={function() {clickRoutine('SLEEP')}}>
             SLEEP
             </Button>
             <Button
-            callBack={() => {clickRoutine('RAVE')}}>
+            callBack={function() {clickRoutine('RAVE')}}>
             RAVE
             </Button>
-
+            <h2>REPEAT</h2>
             </>
 
         )
