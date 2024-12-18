@@ -1,11 +1,11 @@
 import { Fullname } from "./Fullname"
 import { Hobbies } from "./Hobbies"
 
-export function User() {
+export function User(props) {
     return(
         <>
-        <Fullname />
-        <Hobbies />
+        <Fullname firstName={props.firstName} lastName={props.lastName}/>
+        <Hobbies hobbies={props.hobbies}/>
         </>
     )
 }
