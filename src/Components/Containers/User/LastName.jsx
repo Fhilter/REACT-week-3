@@ -1,5 +1,5 @@
-export function Lastname() {
+export function Lastname(props) {
     return(
-        <h2>TRAAS</h2>
+        <h2>{props.lastName}</h2>
     )
 }

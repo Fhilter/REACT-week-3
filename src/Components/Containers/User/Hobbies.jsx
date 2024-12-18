@@ -1,6 +1,6 @@
-export function Hobbies() {
+export function Hobbies({ hobbies }) {
 
-    const hobbies = [{name: "Cycling", id: "uib25FHPQEF"}, {name: "Lego", id: "iafboafbw23"}, {name: "F1", id: "uqh98yqe2w9"}]
+    // const hobbies = [{name: "Cycling", id: "uib25FHPQEF"}, {name: "Lego", id: "iafboafbw23"}, {name: "F1", id: "uqh98yqe2w9"}]
 
     return(
         <div>
