@@ -9,9 +9,16 @@ function App(){
 //to use the children prop in the button component the children have to be within the tags, ergo opposite to normal react component tags which auto-close, a second one must be added (like in html)
 
  const user = {
-  firstName:"Phil",
-  lastName:"Tr",
-  hobbies:[{name: "Cycling", id: "uib25FHPQEF"}, {name: "Lego", id: "iafboafbw23"}, {name: "F1", id: "uqh98yqe2w9"}]
+  firstName:"Philip",
+  lastName:"Traas",
+  hobbies:[{name: "Cycling", id: "111"}, {name: "Lego", id: "222"}, {name: "F1", id: "333"}]
+ }
+
+ function del() {
+  alert('delete')
+ }
+ function val() {
+  alert('confirm')
  }
   return(
     <div>
@@ -20,8 +27,11 @@ function App(){
       <Player />
       <br></br>
       <Footer />
-      <Button color={'green'} bold={true}>
+      <Button color={'green'} bold={true} callBack={val}>
       <p>Confirm</p>
+      </Button>
+      <Button color={'red'} bold={true} callBack={del}>
+      <p>Delete</p>
       </Button>
     </div>
   );

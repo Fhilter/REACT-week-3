@@ -9,7 +9,7 @@ export function Player() {
         <>
             <h2>To win: {winningScore}</h2>
             <p style={{ color: score > winningScore ? "green" : "red" }}>
-                <>{score} = {result}</>
+                <>Your score {score} = {result}</>
             </p>
         </>
 
