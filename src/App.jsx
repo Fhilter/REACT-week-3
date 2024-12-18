@@ -5,7 +5,8 @@ import { Button } from './Components/UI/Button/Button';
 import { User } from './Components/Containers/User/User';
 import { Player } from './Components/Containers/Player/Player';
 import { Routine } from './Components/Containers/Routines/routine';
-import { Counter } from './Components/Containers/counter/counter';
+import { Counter } from './Components/Containers/Counter/Counter';
+import { Menu } from './Components/Containers/Menu/Menu';
 
 function App(){
 //to use the children prop in the button component the children have to be within the tags, ergo opposite to normal react component tags which auto-close, a second one must be added (like in html)
@@ -27,6 +28,7 @@ function App(){
   return(
     <div>
       <Header />
+      <Menu />
       <User firstName={user.firstName} lastName={user.lastName} hobbies={user.hobbies}/>
       <Routine />
       <Player />
