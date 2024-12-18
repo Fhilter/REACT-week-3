@@ -12,7 +12,7 @@ export function Routine() {
             <>
             <h2>My Routines</h2>
             <Button
-            callBack={ function() {clickRoutine('EAT')}}>
+            callBack={function() {clickRoutine('EAT')}}>
             EAT
             </Button>
             <Button
