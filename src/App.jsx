@@ -4,6 +4,7 @@ import { Footer } from './Components/Containers/Footer/Footer';
 import { Button } from './Components/UI/Button/Button';
 import { User } from './Components/Containers/User/User';
 import { Player } from './Components/Containers/Player/Player';
+import { Routine } from './Components/Containers/Routines/routine';
 
 function App(){
 //to use the children prop in the button component the children have to be within the tags, ergo opposite to normal react component tags which auto-close, a second one must be added (like in html)
@@ -20,10 +21,13 @@ function App(){
  function val() {
   alert('confirm')
  }
+
+
   return(
     <div>
       <Header />
       <User firstName={user.firstName} lastName={user.lastName} hobbies={user.hobbies}/>
+      <Routine />
       <Player />
       <br></br>
       <Footer />
