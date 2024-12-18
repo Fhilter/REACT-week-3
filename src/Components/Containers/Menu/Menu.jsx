@@ -6,16 +6,16 @@ export function Menu() {
 const [text, setText] = useState('show')
 const [menu, setMenu] = useState(false)
 
-    function openMenu() {
+    function toggleMenu() {
         setText(text === "show" ? "hide" : "show")
         setMenu(!menu)
     }
 
     return(
         <>
-        <Button callBack={openMenu}>{text}</Button>
+        <Button callBack={toggleMenu}>{text}</Button>
         {menu && (
-                <ul>
+                <ul> Menu drawer
                     <li>Home</li>
                     <li>Contact</li>
                     <li>Profile</li>
