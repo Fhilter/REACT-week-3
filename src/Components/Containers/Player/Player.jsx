@@ -1,13 +1,17 @@
+const winningScore = 300;
+
 export function Player() {
-    const score = 300;
-    let result = score >= 500 ? "winner" : "loser";
 
-
-
+    const score = 350;
+    let result = score > 300 ? "WINNER" : "LOSER";
 
     return(
         <>
-        {score}<p>=</p>{result}
+            <h2>To win: {winningScore}</h2>
+            <p style={{ color: score > winningScore ? "green" : "red" }}>
+                <>{score} = {result}</>
+            </p>
         </>
+
     )
 }

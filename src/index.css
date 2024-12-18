@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -35,7 +39,7 @@ body {
 }
 
 h2 {
-  padding: 5px;
+  padding: 3px;
 }
 button {
   border-radius: 8px;
