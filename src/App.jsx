@@ -7,6 +7,7 @@ import { Player } from './Components/Containers/Player/Player';
 import { Routine } from './Components/Containers/Routines/routine';
 import { Counter } from './Components/Containers/Counter/Counter';
 import { Menu } from './Components/Containers/Menu/Menu';
+import { ContactForm } from './Components/Containers/User/ContactForm';
 
 function App(){
 //to use the children prop in the button component the children have to be within the tags, ergo opposite to normal react component tags which auto-close, a second one must be added (like in html)
@@ -41,6 +42,7 @@ function App(){
       <p>Delete</p>
       </Button>
       <Counter/>
+      <ContactForm />
     </div>
   );
 }
