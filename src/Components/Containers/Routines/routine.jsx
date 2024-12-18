@@ -1,10 +1,7 @@
 import { Button } from "../../UI/Button/Button";
 
 export function Routine() {
-
-
-
-    
+  
 
         function clickRoutine(action) {
             alert(`Time to ${action}!`)
